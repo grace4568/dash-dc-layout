@@ -6,11 +6,11 @@ import pandas as pd
 
 ########### Define your variables ######
 
-tabtitle = 'the district'
-myheading1 = 'Step Back! The doors are about to close!'
-myheading2 = 'Back2Good'
-image1 = 'dc-flag.jpg'
-image2 = 'metro-map.png'
+tabtitle = 'DC Metro'
+myheading1 = 'Not a fan!'
+myheading2 = 'Hurry! The orange train is coming.'
+image1 = 'favicon.ico'
+image2 = 'arr.jpeg'
 textbody = "Metro's recent on time performance ratings are so good, it's getting harder to find a good reason to take a car!"
 sourceurl = 'https://www.wmata.com/about/back2good/index.cfm'
 githublink = 'https://github.com/austinlasseter/dash-dc-layout'
@@ -35,12 +35,12 @@ app.layout = html.Div(children=[
         html.Div([
             html.Div(textbody, style={
                 'padding': '12px',
-                'font-size': '22px',
-                'height': '120px',
+                'font-size': '28px',
+                'height': '150px',
                 'border': 'thin red solid',
-                'color': 'rgb(255, 255, 255)',
-                'backgroundColor': 'rgb(57, 83, 107)',
-                'textAlign': 'right',
+                'color': 'rgb(213, 54, 0)',
+                'backgroundColor': 'rgb(180, 219, 242)',
+                'textAlign': 'center',
                 }),
         ],className='six columns'),
     ],className='twelve columns'),
